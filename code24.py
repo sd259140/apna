@@ -8,12 +8,7 @@ for i in l:
         odd.append(i)
 print(odd)        
 print(even)
-#leap
-def leap(a):
-    if a%4==0:
-        print('leapyear')
-    else:
-        print('nonleap')    
+   
 #laege among 3
 def largest(a,b,c):
     if a>=b and a>=c:
