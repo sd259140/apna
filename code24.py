@@ -7,7 +7,7 @@ for i in l:
     else:
         odd.append(i)
 print(odd)        
-print(even)
+
    
 #laege among 3
 def largest(a,b,c):
