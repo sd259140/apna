@@ -232,7 +232,46 @@ print(result)
 sentence = "Yellow Yaks like yelling and yawning and yesturday they yodled while eating yuky yams"
 
 result = [letter for letter in sentence if letter not in 'a,e,i,o,u, " "']
-print(result)
+#print(result)
 d=[[20,23],[25,85],[96,5]]
 c=[i for g in d for i in g]
-print(c)
+#print(c)
+a=[1,85,96,84]
+b=[25,63,98,96]
+a[0]=b[0]
+a[1]=b[1]
+a[2]=b[2]
+a[3]=b[3]
+
+#print(a)
+#find memebr whos start with a
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+d1=[d for d in fruits if d.startswith("a") ]
+#print(d1)
+
+''''
+a=[4,8,9,4]
+n=float(len(a))
+print((n/2))
+if n%2 != 0:
+    print(a[int(n-.5)])
+else:
+    print(a[int(n-1)])  
+     
+a=3
+factorial=1
+if a==0:
+    print('one is')
+else:
+
+    for i in range(a):
+        factorial=factorial*i
+        print(factorial)
+'''
+def fact(a):
+    if a==0:
+        result=1
+    else:
+        result=a*(a-1)  
+    return result      
+fact(4)    

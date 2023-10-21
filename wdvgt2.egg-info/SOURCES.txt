@@ -1,0 +1,5 @@
+setup.py
+wdvgt2.egg-info/PKG-INFO
+wdvgt2.egg-info/SOURCES.txt
+wdvgt2.egg-info/dependency_links.txt
+wdvgt2.egg-info/top_level.txt
